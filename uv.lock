@@ -1,0 +1,11 @@
+version = 1
+requires-python = ">=3.9"
+
+[[package]]
+name = "uv-version-critical"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "httpx" },
+    { name = "pydantic" },
+]

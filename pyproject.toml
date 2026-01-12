@@ -1,0 +1,9 @@
+[project]
+name = "uv-version-critical"
+version = "0.1.0"
+description = "Critical test: Python 3.12+ features required"
+requires-python = ">=3.9"
+dependencies = [
+    "httpx>=0.27.0",  # Works best with Python 3.12+
+    "pydantic>=2.5.0",  # Type hints require Python 3.10+, optimal on 3.12+
+]
